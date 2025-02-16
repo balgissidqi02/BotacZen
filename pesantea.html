@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botanical Zen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .text-content {
+            width: 50%;
+        }
+
+        .breadcrumb {
+            font-size: 16px;
+            color: #0C5B31;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .breadcrumb a {
+            text-decoration: none;
+            color: #0C5B31;
+            margin-left: 5px;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb img {
+            width: 20px;
+            margin-right: 5px;
+        }
+
+        .text-content h2 {
+            font-size: 44px;
+            color: #000000;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .highlight {
+            background-color: #0C5B31;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .product-description {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .qr-container {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            justify-content: flex-start;
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #FFA500;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            width: fit-content;
+        }
+
+        .button:hover {
+            background-color: #e69500;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            margin-left: 20px;
+        }
+
+        .image1 {
+            border-radius: 5px;
+            width: 430px;
+            position: absolute;
+            top: -70px;
+            left: 420px;
+            z-index: 1;
+        }
+
+        .image2 {
+            border-radius: 5px;
+            width: 360px;
+            position: absolute;
+            top: 10px;
+            left: 100px;
+            z-index: 2;
+        }
+
+        .image3 {
+            border-radius: 10px;
+            width: 380px;
+            position: absolute;
+            top: 130px;
+            left: 380px;
+            z-index: 3;
+        }
+
+        .qr-image {
+            width: 200px;
+            margin-right: 20px;
+        }
+
+        .shop-icon {
+            width: 24px;
+        }
+
+        /* Logo Styles */
+        .logo {
+            position: absolute;
+            top: 10px; /* Adjust top position */
+            right: 20px; /* Adjust right position */
+            width: 100px; /* Set a width for the logo */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <img src="logo-botanicalzen2.png" alt="Logo" class="logo"> <!-- Logo Position -->
+    <div class="container">
+        <div class="text-content">
+            <div class="breadcrumb">
+                <img src="back.png" alt="Arrow" />
+                <a href="beranda.html">Beranda</a>
+            </div>
+            <h2><span class="highlight">Botanical Ze</span>n Tea<br>Herbal Blend</h2>
+            <p class="product-description">
+                Teh herbal alami yang diramu dari daun beluntas dan bahan organik lainnya untuk membantu relaksasi, detoksifikasi tubuh, dan meningkatkan kesehatan secara menyeluruh.
+            </p>
+            <div class="qr-container">
+                <img src="Botnical Zen.png" alt="QR Code" class="qr-image">
+                <div class="image-container">
+                    <img src="pesantea1.png" alt="Daun Beluntas" class="image1">
+                    <img src="pesantea2.png" alt="the" class="image2">
+                    <img src="pesantea3.png" alt="bubuk beluntas" class="image3">
+                </div>
+            </div>
+            <a href="https://id.shp.ee/1gL5hh1" class="button">
+                <img src="shopee-icon.png" alt="Shop Icon" class="shop-icon"> Beli Sekarang
+            </a>
+        </div>
+    </div>
+</body>
+</html>
